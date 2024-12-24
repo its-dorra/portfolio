@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   authors: [
     {
       name: "Dorra",
-      // url: "https://your-portfolio-url.com",
+      url: "https://dorra-codes.vercel.app/",
     },
   ],
   openGraph: {
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     description:
       "Full Stack Developer with expertise in modern web technologies",
     type: "website",
-    // url: "https://your-portfolio-url.com",
+    url: "https://dorra-codes.vercel.app/",
   },
 };
 
