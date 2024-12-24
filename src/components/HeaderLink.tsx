@@ -2,7 +2,7 @@
 
 import { useHash } from "@/context/router-context";
 import { useParams } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 interface HeaderLinkProps {
   href: string;
