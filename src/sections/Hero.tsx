@@ -9,10 +9,10 @@ import SparkleIcon from "@/assets/icons/sparkle.svg";
 export const HeroSection = () => {
   return (
     <section
-      className="md:48 relative z-0 overflow-x-clip py-32 lg:py-60"
+      className="md:48 relative overflow-x-clip py-32 lg:py-60"
       id="home"
     >
-      <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]">
+      <div className="absolute inset-0 -z-10 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]">
         <div
           className="absolute inset-0 -z-30 opacity-5"
           style={{ backgroundImage: `url(${grainImage.src})` }}
@@ -149,7 +149,7 @@ export const HeroSection = () => {
             project.
           </p>
         </div>
-        <div className="mt-8 flex flex-col items-center gap-4 md:flex-row md:justify-center">
+        <div className="z-30 mt-8 flex flex-col items-center gap-4 md:flex-row md:justify-center">
           <a href="#projects">
             <button className="inline-flex h-12 items-center gap-2 rounded-lg border border-white/15 px-6">
               <span className="font-semibold">Explore My Work</span>
