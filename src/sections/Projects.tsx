@@ -26,7 +26,7 @@ const portfolioProjects = [
   {
     company: "Brainwave",
     year: "2024",
-    title: "AI Platform Dark Theme",
+    title: "AI landing page Dark Theme",
     results: [
       { title: "Achieved 95% user accessibility score" },
       { title: "Reduced eye strain by implementing smart contrast" },
