@@ -3,6 +3,7 @@ import { Inter, Calistoga } from "next/font/google";
 import "./globals.css";
 import { twMerge } from "tailwind-merge";
 import HashFragmentProvider from "@/context/router-context";
+import screenShot from "@/assets/images/screen-shot.png";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -40,6 +41,14 @@ export const metadata: Metadata = {
       "Full Stack Developer with expertise in modern web technologies",
     type: "website",
     url: "https://dorra-codes.vercel.app/",
+    images: [
+      {
+        url: screenShot.src,
+        width: 1200,
+        height: 630,
+        alt: "Portfolio Open Graph Image",
+      },
+    ],
   },
 };
 
