@@ -16,7 +16,7 @@ export default function HeaderLink({ href, content }: HeaderLinkProps) {
 
   useEffect(() => {
     setHash(window.location.hash);
-  }, [params]);
+  }, [params, setHash]);
 
   return (
     <a

@@ -134,7 +134,7 @@ export const HeroSection = () => {
           />
           <div className="inline-flex items-center gap-4 rounded-lg border border-gray-800 bg-gray-950 px-4 py-1.5">
             <div className="relative size-2.5 rounded-full bg-green-500">
-              <div className="animate-ping-large absolute inset-0 rounded-full bg-green-500" />
+              <div className="absolute inset-0 animate-ping-large rounded-full bg-green-500" />
             </div>
             <p className="text-sm font-medium">Available for new projects</p>
           </div>
@@ -145,7 +145,8 @@ export const HeroSection = () => {
           </h1>
           <p className="mt-4 text-center text-white/60 md:text-lg">
             I specialize in transforming designs into functional,
-            high-performing web applications. Let's discuss your next project.
+            high-performing web applications. Let&apos;s discuss your next
+            project.
           </p>
         </div>
         <div className="mt-8 flex flex-col items-center gap-4 md:flex-row md:justify-center">
@@ -155,7 +156,7 @@ export const HeroSection = () => {
           </button>
           <button className="inline-flex h-12 items-center gap-2 rounded-lg border border-white bg-white px-6 text-gray-900">
             <span>👋</span>
-            <span className="font-semibold">Let's connect</span>
+            <span className="font-semibold">Let&apos;s connect</span>
           </button>
         </div>
       </div>
