@@ -1,6 +1,13 @@
 "use client";
 
-import { createContext, ReactNode, useContext, useState } from "react";
+import { useParams } from "next/navigation";
+import {
+  createContext,
+  ReactNode,
+  useContext,
+  useEffect,
+  useState,
+} from "react";
 
 interface HashFragment {
   hash: string;
@@ -15,6 +22,12 @@ export default function HashFragmentProvider({
   children: ReactNode;
 }) {
   const [hash, setHash] = useState("#home");
+
+  const params = useParams();
+
+  useEffect(() => {
+    setHash(window.location.hash);
+  }, [params, setHash]);
 
   return (
     <HashFragmentContext.Provider value={{ hash, setHash }}>
