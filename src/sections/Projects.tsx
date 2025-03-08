@@ -1,10 +1,8 @@
 import Image from "next/image";
-import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
 import wildOasis from "@/assets/images/wild-oasis.png";
 import brainWave from "@/assets/images/brain-wave.png";
 import carePulse from "@/assets/images/care-pulse.png";
-import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
-import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import ecommerce from "@/assets/images/e-commerce.png";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 import SectionHeader from "@/components/SectionHeader";
@@ -22,6 +20,18 @@ const portfolioProjects = [
     ],
     link: "https://dorra-codes-carepulse.vercel.app/",
     image: carePulse,
+  },
+  {
+    company: "Fashion Haven",
+    year: "2024",
+    title: "Cloting E-commerce Platform",
+    results: [
+      { title: "Increased online sales by 50%" },
+      { title: "Enhanced user experience with a 40% faster checkout process" },
+      { title: "Boosted customer retention by 30%" },
+    ],
+    link: "https://dorra-codes-e-commerce-app.vercel.app/",
+    image: ecommerce,
   },
   {
     company: "Brainwave",
